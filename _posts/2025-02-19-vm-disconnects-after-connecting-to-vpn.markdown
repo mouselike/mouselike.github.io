@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "VM disconnects after connecting to VPN"
-date:   2025-02-19 19:33:00 +0200
 categories: power automate
 ---
 
