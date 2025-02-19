@@ -21,9 +21,7 @@
 title: Workflow Notes
 email: uli.kisslinger@netflows.de
 description: >- # this means to ignore newlines until "baseurl:"
-  This is a personal notebook where I jot down insights, lessons, and references from my work as an entrepreneur and consultant. 
-  The focus is on process digitization and automation, with a strong emphasis on tools like Power Automate and Asana, but not exclusively. 
-  If it helps streamline workflows and optimize business processes, you’ll probably find it here.
+  Workflow Notes is where I share insights, lessons, and key takeaways from my journey as an entrepreneur and consultant.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ulikisslinger.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
