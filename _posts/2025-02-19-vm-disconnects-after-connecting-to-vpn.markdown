@@ -10,7 +10,7 @@ I was connected to a VM via RDP (Remote Desktop using the Windows app on my Mac)
 
 
 ## Solution
-I resolved the issue of losing connection to the VM by disabling the “Use default gateway on remote network” option in the IPv4 properties of the VPN network adapter settings. This prevented the VPN from overriding the VM’s default route, allowing me to maintain my RDP session while still accessing the remote network. 1 
+I resolved the issue of losing connection to the VM by disabling the “Use default gateway on remote network” option in the IPv4 properties of the VPN network adapter settings. This prevented the VPN from overriding the VM’s default route, allowing me to maintain my RDP session while still accessing the remote network.
 
 After resolving the VM connection issue, I encountered another problem: I couldn’t connect to the machine running on the local network. The issue was that my VM was on a different subnet. I discovered this by running the following command in PowerShell:
 
@@ -23,15 +23,15 @@ PPP adapter AKI-VPN:
 
 ```shell
    Connection-specific DNS Suffix  . :
-   Description . . . . . . . . . . . : AKI-VPN
+   Description . . . . . . . . . . . : VPN
    Physical Address. . . . . . . . . :
    DHCP Enabled. . . . . . . . . . . : No
    Autoconfiguration Enabled . . . . : Yes
-   Link-local IPv6 Address . . . . . : fe80::809a:2fff:b149:7fe2%55(Preferred)
+   Link-local IPv6 Address . . . . . : fe80::809a:2fff:b549:7fe2%55(Preferred)
    IPv4 Address. . . . . . . . . . . : 192.168.3.6(Preferred)
    Subnet Mask . . . . . . . . . . . : 255.255.255.255
    Default Gateway . . . . . . . . . :
-   DHCPv6 IAID . . . . . . . . . . . : 895501757
+   DHCPv6 IAID . . . . . . . . . . . : 898501757
    DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-2E-B1-1D-C1-60-45-BD-9F-BB-6B
    DNS Servers . . . . . . . . . . . : 172.20.0.10
                                        8.8.8.8
