@@ -18,10 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: FlowState
+title: Workflow Notes
 email: uli.kisslinger@netflows.de
 description: >- # this means to ignore newlines until "baseurl:"
-  FlowState is a personal notebook where I jot down insights, lessons, and references from my work as an entrepreneur and consultant. 
+  This is a personal notebook where I jot down insights, lessons, and references from my work as an entrepreneur and consultant. 
   The focus is on process digitization and automation, with a strong emphasis on tools like Power Automate and Asana, but not exclusively. 
   If it helps streamline workflows and optimize business processes, you’ll probably find it here.
 baseurl: "" # the subpath of your site, e.g. /blog
