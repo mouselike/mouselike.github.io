@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "VM disconnects after connecting to VPN"
-categories: power automate
+categories: networking
 ---
 
 
