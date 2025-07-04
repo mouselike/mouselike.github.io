@@ -1,6 +1,6 @@
-title: mouslike
+title: mouslike.github.io
 author:
-  name: Uli Kisslinger
+  name: 
   email: 
 
 # The `>` after `description:` means to ignore line-breaks until next key.
@@ -39,7 +39,7 @@ minima:
   # solarized-light	   Light variant of solarized color scheme.
   # solarized-dark	   Dark variant of solarized color scheme.
   # solarized	         Adaptive skin for solarized color scheme skins.
-  skin: classic
+  skin: dark
 
   # Set to `true` to show excerpts on the homepage.
   #show_excerpts: false
@@ -56,10 +56,10 @@ minima:
   # * title    Tooltip rendered on hovering over icon.
   # * icon     Font Awesome icon id. `github` corresponds to `fa-github`.
   # * url      Full URL of social profile.
-  #social_links:
-  #  - title: Minima Theme repository at GitHub
-  #    icon: github
-  #    url: "https://github.com/jekyll/minima"
-  #  - title: Jekyll at X (formerly Twitter)
-  #    icon: x-twitter
-  #    url: "https://x.com/jekyllrb"
+  social_links:
+    - title: GitHub
+      icon: github
+      url: "https://github.com/Mouselike"
+    - title: X
+      icon: x-twitter
+      url: "https://x.com/mouselike12"
