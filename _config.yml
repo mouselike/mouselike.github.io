@@ -1,12 +1,12 @@
-title: Workflow Notes
+title: mouslike
 author:
   name: Uli Kisslinger
-  email: uli.kisslinger@netflows.de
+  email: 
 
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
 description: >
-  In this blog I share insights, key takeaways and random notes from my journey as an entrepreneur and consultant.
+  Everything I write, I write for myself. In this blog I share some of it.
 
 # Build settings
 
